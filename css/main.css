@@ -35,7 +35,6 @@
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    box-shadow: 0 0 1px 2px rgba(0,0,0,0.3);
   }
   @media only screen and (min-width: 768px) {
     .snakeTable {
@@ -46,7 +45,7 @@
 
   /* all boxes in the table */
   .box {
-    background: white;
+    background: wheat;
     border: solid 1px #16a085;
     width: 10px;
     height: 10px;
@@ -63,7 +62,7 @@
   }
 
   .snake {
-    background: #16a085;
+    background:black;
   }
 
   /* bar showing status below table */
