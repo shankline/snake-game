@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
-    font-family: arial;
+    font-family: san serif;
     background: #2ecc71;
     background-image: linear-gradient(to top left, #2980b9, #16a085, #2ecc71);
     position: relative;
@@ -23,7 +23,7 @@
     font-size: 32px;
     letter-spacing: 10px;
     padding: 20px 10px;
-    color: white;
+    color: black;
   }
 
   /* main table */
@@ -45,7 +45,7 @@
 
   /* all boxes in the table */
   .box {
-    background: wheat;
+    background: white;
     border: solid 1px #16a085;
     width: 10px;
     height: 10px;
@@ -81,7 +81,7 @@
   }
 
   .score {
-    float: right;
+    float: left;
     padding: 0 5px;
     line-height: 20px;
   }
@@ -114,7 +114,6 @@
   .start {
     background: rgba(256,256,256,1);
     padding: 40px 50px;
-  /*   margin: auto; */
     width: 240px;
     box-shadow: 0 0 2px 3px rgba(0,0,0,0.3);
   }
